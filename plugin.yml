@@ -1,0 +1,35 @@
+name: TheLocation
+main: cc.sfclub.blog.little
+version: 2.0
+author: EntityCat_
+commands:
+  ml:
+     description: main command.
+     usage: /<command> help
+permissions:
+    TheLocation.*:
+        description: Gives access to all TheLocation commands 
+        children:  
+            TheLocation.bypass: true
+    TheLocation.team:
+        description: Team chat  
+        default: true  
+    TheLocation.hear.team:
+        description: hear team chat
+        default: true
+    TheLocation.sendToAll:
+        description: broadcast
+        default: true
+    TheLocation.bypass:
+        description: broadcast
+        default: op
+    TheLocation.hear.broadcast:
+        description: broadcast
+        default: true
+    TheLocation.toggle:
+        description: broadcast
+        default: true
+    TheLocation.hear.broadcast:
+        description: broadcast
+        default:tru
+        

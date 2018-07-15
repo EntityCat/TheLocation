@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TheLocation">
+    <output-path>$PROJECT_DIR$/../Success/TheLocation</output-path>
+    <root id="archive" name="TheLocation.jar">
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>
